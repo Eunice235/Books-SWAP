@@ -1,3 +1,27 @@
-body{
-    background-image: https://www.istockphoto.com/photo/cute-african-american-schoolgirl-reading-a-book-in-the-library-gm609049138-104388765;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
 }
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+.home, .about, .contacts {
+    margin-right: 20px;
+}
+
+.content {
+    max-width: 800px;
+}
+   
