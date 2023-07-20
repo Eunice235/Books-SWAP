@@ -1,27 +1,17 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    padding: 20px;
-}
+#sidebar {
+    
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  }
 
-.navigation {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-}
+  /* Optional: Adjust the font size and padding of the links */
+  .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
 
-.navigation a {
-    text-decoration: none;
-}
-.home, .about, .contacts {
-    margin-right: 20px;
-}
-
-.content {
-    max-width: 800px;
-}
-   
+  /* Optional: Change the active link background color */
+  .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
